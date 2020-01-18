@@ -1,6 +1,6 @@
 Name:           perl-Encode-Locale
 Version:        1.03
-Release:        4%{?dist}
+Release:        5%{?dist}
 Summary:        Determine the locale encoding
 Group:          Development/Libraries
 License:        GPL+ or Artistic
@@ -52,6 +52,9 @@ make test
 %{_mandir}/man3/Encode::Locale.3*
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 1.03-5
+- Mass rebuild 2013-12-27
+
 * Wed Nov 21 2012 Marcela Mašláňová <mmaslano@redhat.com> - 1.03-4
 - Filter duplicated requires.
 
